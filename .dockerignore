@@ -1,0 +1,47 @@
+# Git files
+.git
+.gitignore
+.github
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+
+# Docker files not required inside image
+Dockerfile
+docker-compose.yml
+docker-setup.sh
+
+# Go build files
+bin/
+build/
+dist/
+tmp/
+*.exe
+*.out
+*.test
+coverage.out
+
+# Logs
+*.log
+logs/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Documentation
+README.md
+docs/
+
+# Temporary files
+tmp/
+temp/
+.cache/
